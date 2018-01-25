@@ -17,8 +17,14 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-    for (int index = 0; index < 10; index++)
+    for (int index = 13; index < 31; index++)
     {
-        cout << "This loop has executed" << index + 1 << " times" << endl;
+        cout << "Dylan Zettler" << index + 1 << " times" << endl;
     }
 }
+
+#include <vector>  //for std::vector
+#include <string>  //for std::string
+
+std::vector<std::string> data;
+
