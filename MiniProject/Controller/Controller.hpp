@@ -11,7 +11,14 @@
 
 class controller
 {
-    
+private:
+    //data members and helper methods
+protected:
+    //Things that need only be used in subclasses
+public:
+    //Anyone can see this.
+    Controller();
+    void start();
 };
 
 #endif /* Controller_hpp */
