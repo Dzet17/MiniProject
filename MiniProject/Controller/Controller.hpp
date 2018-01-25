@@ -9,7 +9,9 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-class controller
+#include <iostream>
+
+class Controller
 {
 private:
     //data members and helper methods
